@@ -1,11 +1,10 @@
 # Our base image
-FROM atlasml/ml-base
+FROM tensorflow/tensorflow:latest-gpu
 
 USER root
 
 COPY requirements.txt /requirements.txt
 
 RUN pip install --upgrade pip --user
-RUN pip uninstall -y tensorflow
 RUN pip install -r /requirements.txt
 
