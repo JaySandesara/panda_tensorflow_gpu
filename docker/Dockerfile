@@ -1,6 +1,11 @@
 # Our base image
 FROM atlasml/ml-base
 
+USER root
+
+COPY requirements.txt /requirements.txt
+
 RUN pip install --upgrade pip --user
-RUN pip install tensorflow --upgrade --user
-RUN pip install numpy --upgrade --user
+RUN pip uninstall -y tensorflow
+RUN pip install -r /requirements.txt
+
