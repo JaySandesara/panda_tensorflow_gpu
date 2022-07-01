@@ -788,7 +788,7 @@ scikit-learn==1.1.1 \
     --hash=sha256:e851f8874398dcd50d1e174e810e9331563d189356e945b3271c0e19ee6f4d6f \
     --hash=sha256:e9d228ced1214d67904f26fb820c8abbea12b2889cd4aa8cda20a4ca0ed781c1 \
     --hash=sha256:f2d5b5d6e87d482e17696a7bfa03fe9515fdfe27e462a4ad37f3d7774a5e2fd6
-    # via sklearn
+    # via -r requirements.txt
 scipy==1.8.1 \
     --hash=sha256:02b567e722d62bddd4ac253dafb01ce7ed8742cf8031aea030a41414b86c1125 \
     --hash=sha256:1166514aa3bbf04cb5941027c6e294a000bba0cf00f5cdac6c77f2dad479b434 \
@@ -831,9 +831,6 @@ six==1.16.0 \
     #   keras-preprocessing
     #   python-dateutil
     #   tensorflow-gpu
-sklearn==0.0 \
-    --hash=sha256:e23001573aa194b834122d2b9562459bf5ae494a2d59ca6b8aa22c85a44c0e31
-    # via -r requirements.txt
 soupsieve==2.3.2.post1 \
     --hash=sha256:3b2503d3c7084a42b1ebd08116e5f81aadfaea95863628c80a3b774a11b7c759 \
     --hash=sha256:fc53893b3da2c33de295667a0e19f078c14bf86544af307354de5fcf12a3f30d
