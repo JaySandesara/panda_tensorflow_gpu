@@ -6,3 +6,6 @@ scikit-learn==1.1.1
 mplhep==0.3.25
 tables==3.7.0
 protobuf==3.20.0
+jax==0.4.6
+jaxlib==0.4.6
+iminuit==2.20.0
